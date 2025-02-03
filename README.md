@@ -37,10 +37,20 @@ If you use our implementation, please cite us as follows.
 
 ### Fair $k$-supplier with intersecting facility groups
 
-* ```div_k_supplier_5apx.py``` contains an implementation of $5$-approximation algorithm. The implementation combines the constraint-pattern enumeration of Thejaswi et al. (KDD 2022) and invokes the $5$-approximation algorithm of Chen et al. (TCS 2023) for the disjoing groups, to give a $5$-approximation for fair $k$-supplier problem with intersecting facility groups. We consider this as a baseline to compare against our algorithm.
-
-* ```div_k_supplier_3apx.py``` contains an implementaion of $3$-approximation algorithm that we propose in this work. The implementation combines the constraint-pattern enumeration of Thejaswi et al. (KDD 2022) and invokes our $3$-approximation algorithm  for the disjoing groups as a subroutine, to give a $3$-approximation for fair $k$-supplier problem with intersecting facility groups.
-
+* ```div_k_supplier_5apx.py``` contains an implementation of $5$-approximation
+ algorithm. The implementation combines the constraint-pattern enumeration of
+ Thejaswi et al. (KDD 2022) and invokes the $5$-approximation algorithm of Chen
+ et al. (TCS 2023) for the disjoint groups, to give a $5$-approximation for fair
+ $k$-supplier problem with intersecting facility groups. We consider this as a
+ baseline to compare against our algorithm.
+ 
+* ```div_k_supplier_3apx.py``` contains an implementaion of $3$-approximation algorithm
+ that we propose in this work. The implementation combines the
+ constraint-pattern enumeration of Thejaswi et al. (KDD 2022) and invokes our
+ $3$-approximation algorithm  for the disjoint groups as a subroutine, to give a
+ $3$-approximation for fair $k$-supplier problem with intersecting facility
+ groups.
+ 
 
 ### Configuration and requirements
 
